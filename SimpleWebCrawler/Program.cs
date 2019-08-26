@@ -23,8 +23,8 @@ namespace SimpleWebCrawler
             SortedSet<string> products = new SortedSet<string>();
 
 
-            Urls.Add("https://www.elgiganten.dk/catalog/gaming/dk-gaming-stationaer-pc/gaming-stationar-pc?SearchParameter=%26%40QueryTerm%3D*%26ContextCategoryUUID%3DMV.sGQV5c6IAAAFaBK4MCIVM%26discontinued%3D0%26online%3D1%26ProductListPrice%3D4000%2B-%2B19999%26%40Sort.ViewCount%3D1&PageSize=12&ProductElementCount=&searchResultTab=Products&CategoryName=dk-gaming-stationaer-pc&CategoryDomainName=store-elgigantenDK-ProductCatalog#filter-sidebar");
-            Urls.Add("https://www.komplett.dk/category/21660/gaming/gaming-pc/stationaer?nlevel=10431%C2%A721659%C2%A721660&pricegross.min=4000&pricegross.max=19999&pricegross.omin=4000&pricegross.omax=19999");
+            Urls.Add("https://www.elgiganten.dk/catalog/gaming/dk-gaming-stationaer-pc/gaming-stationar-pc?SearchParameter=%26%40QueryTerm%3D*%26ContextCategoryUUID%3DMV.sGQV5c6IAAAFaBK4MCIVM%26discontinued%3D0%26online%3D1%26ProductListPrice%3D0%2B-%2B25000%26%40Sort.ViewCount%3D1&PageSize=12&ProductElementCount=&searchResultTab=Products&CategoryName=dk-gaming-stationaer-pc&CategoryDomainName=store-elgigantenDK-ProductCatalog#filter-sidebar");
+            Urls.Add("https://www.komplett.dk/category/21660/gaming/gaming-pc/stationaer?nlevel=10431%C2%A721659%C2%A721660&pricegross.min=0&pricegross.max=19999&pricegross.omin=0&pricegross.omax=19999");
 
             foreach (var url in Urls)
             {
